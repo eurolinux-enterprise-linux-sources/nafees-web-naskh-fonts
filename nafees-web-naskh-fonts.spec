@@ -5,7 +5,7 @@
 
 Name:           %{fontname}-fonts
 Version:        1.2
-Release:        10%{?dist}
+Release:        11%{?dist}
 Summary:        Nafees Web font for writing Urdu in the Naskh script 
 
 Group:          User Interface/X
@@ -68,6 +68,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2-11
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.2-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
